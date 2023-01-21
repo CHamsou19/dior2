@@ -1,0 +1,20 @@
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+body{
+    background-color: rgb(220, 223, 223);
+    background-image:url(image/2.jpg ) ;
+    background-size: cover;
+    
+}
+#produit{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.livre:hover{
+    transform: scale(1.1);
+}
