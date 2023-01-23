@@ -18,3 +18,26 @@ body{
 .livre:hover{
     transform: scale(1.1);
 }
+#produit{
+    padding: 20px;
+    margin: 20px;
+    background-color: #B6EADA;
+    box-shadow: 0 0 10px 1px #B6EADA;
+    text-align: center;
+}
+#produit-img{
+    padding: 10px;
+    background: black;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+#produit{
+    display: grid;
+    grid-template-columns: repeat(3,1fr)
+}
+#produit-img{
+    padding: 10px;
+    background: black;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
